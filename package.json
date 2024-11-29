@@ -31,13 +31,6 @@
     "url": "https://github.com/bsolus/kuantokusta-seller-api-node-sdk/issues"
   },
   "homepage": "https://github.com/bsolus/kuantokusta-seller-api-node-sdk#readme",
-  "scripts": {
-    "build": "tsc",
-    "lint": "eslint .",
-    "test": "jest",
-    "prepare": "npm run build",
-    "prepublishOnly": "npm test && npm run lint"
-  },
   "dependencies": {
     "api": "^6.1.2",
     "json-schema-to-ts": "^2.12.0",

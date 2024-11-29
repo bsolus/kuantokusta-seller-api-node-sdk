@@ -1,6 +1,6 @@
 {
   "name": "@bsolus/kuantokusta-seller-api-node-sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Node.js SDK for interacting with the KuantoKusta Seller API, providing seamless integration for sellers.",
   "main": "./index.ts",
   "types": "./index.d.ts",
@@ -31,12 +31,19 @@
     "url": "https://github.com/bsolus/kuantokusta-seller-api-node-sdk/issues"
   },
   "homepage": "https://github.com/bsolus/kuantokusta-seller-api-node-sdk#readme",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint .",
+    "test": "jest",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint"
+  },
   "dependencies": {
     "api": "^6.1.2",
     "json-schema-to-ts": "^2.12.0",
     "oas": "^20.10.3"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   }
 }

@@ -1,0 +1,39 @@
+{
+  "name": "@bsolus/kuantokusta-seller-api-node-sdk",
+  "version": "1.0.0",
+  "description": "A Node.js SDK for interacting with the KuantoKusta Seller API, providing seamless integration for sellers.",
+  "main": "./index.ts",
+  "types": "./index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bsolus/kuantokusta-seller-api-node-sdk.git"
+  },
+  "author": {
+    "name": "Miguel Vieira",
+    "email": "mvieira@bsolus.pt",
+    "url": "https://bsolus.pt"
+  },
+  "license": "MIT",
+  "keywords": [
+    "kuantokusta",
+    "seller",
+    "api",
+    "sdk",
+    "node",
+    "typescript",
+    "integration"
+  ],
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/bsolus/kuantokusta-seller-api-node-sdk/issues"
+  },
+  "homepage": "https://github.com/bsolus/kuantokusta-seller-api-node-sdk#readme",
+  "dependencies": {
+    "api": "^6.1.2",
+    "json-schema-to-ts": "^2.12.0",
+    "oas": "^20.10.3"
+  }
+}

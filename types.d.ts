@@ -1,6 +1,5 @@
 import type { FromSchema } from 'json-schema-to-ts';
 import * as schemas from './schemas';
-
 export type CancellationReasonsControllerFindAllMetadataParam = FromSchema<typeof schemas.CancellationReasonsControllerFindAll.metadata>;
 export type CancellationReasonsControllerFindAllResponse200 = FromSchema<typeof schemas.CancellationReasonsControllerFindAll.response['200']>;
 export type CancellationReasonsControllerFindAllResponse400 = FromSchema<typeof schemas.CancellationReasonsControllerFindAll.response['400']>;

@@ -1,8 +1,8 @@
 {
   "name": "@bsolus/kuantokusta-seller-api-node-sdk",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A Node.js SDK for interacting with the KuantoKusta Seller API, providing seamless integration for sellers.",
-  "main": "./index.ts",
+  "main": "./index.js",
   "types": "./index.d.ts",
   "repository": {
     "type": "git",

@@ -1,10 +1,6 @@
 {
     "name": "@bsolus/kuantokusta-seller-api-node-sdk",
-<<<<<<< HEAD
     "version": "1.1.0",
-=======
-    "version": "1.0.4",
->>>>>>> b2212ffb7e5a392797cec396c7c40c9b94268e54
     "description": "A Node.js SDK for interacting with the KuantoKusta Seller API, providing seamless integration for sellers.",
     "main": "./index.js",
     "types": "./index.d.ts",
